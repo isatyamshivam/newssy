@@ -16,6 +16,7 @@ const Header = () => {
           </div>
           <div>
             <h1 className="text-xl font-bold tracking-tight">Newsyy</h1>
+            <p className="text-xs text-gray-500 dark:text-gray-400">An extention of Times of India</p>
             <p className="text-xs text-gray-500 dark:text-gray-400">Latest News & Headlines</p>
           </div>
         </Link>
