@@ -3,9 +3,10 @@ import Link from 'next/link';
 import moment from 'moment';
 
 const NewsCard = ({ article }) => {
-  // Clean description by removing CDATA tags and extra whitespace
+  // Clean description by removing HTML tags, CDATA tags, and extra whitespace
   const cleanDescription = article.description
     .replace(/<!\[CDATA\[|\]\]>/g, '')
+    .replace(/<[^>]*>/g, '') // Remove HTML tags
     .trim();
 
   // Format the publication date nicely
