@@ -20,8 +20,8 @@ const Header = ({ currentCategory = 'top' }) => {
         <Link href="/" className="flex items-center space-x-3">
           <div className="relative h-10 w-10">
             <Image 
-              src="/globe.svg" 
-              alt="Times of India"
+              src="/newsyy.jpg" 
+              alt="Newsyy"
               fill
               className="object-contain" 
             />
