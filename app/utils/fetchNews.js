@@ -5,6 +5,7 @@ const RSS_FEEDS = {
   top: 'https://timesofindia.indiatimes.com/rssfeedstopstories.cms',
   india: 'https://timesofindia.indiatimes.com/rssfeeds/296589292.cms',
   world: 'https://timesofindia.indiatimes.com/rssfeeds/296589292.cms',
+  internation: 'https://timesofindia.indiatimes.com/rssfeeds/296589292.cms',
   business: 'https://timesofindia.indiatimes.com/rssfeeds/1898055.cms',
   cricket: 'https://timesofindia.indiatimes.com/rssfeeds/54829575.cms',
   sports: 'https://timesofindia.indiatimes.com/rssfeeds/4719148.cms',
