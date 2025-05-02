@@ -105,7 +105,7 @@ const Header = ({ currentCategory = 'top' }) => {
       )}
       
       {/* Category Navigation - Desktop */}
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-750 shadow-inner">
+      <div className="bg-white dark:bg-gray-800 shadow-inner">
         <div className="container max-w-7xl mx-auto px-4 md:px-6">
           <nav className="flex py-2 overflow-x-auto scrollbar-hide">
             <div className="flex space-x-3 mx-auto">
@@ -116,7 +116,7 @@ const Header = ({ currentCategory = 'top' }) => {
                   className={`whitespace-nowrap px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 transform hover:scale-105
                     ${currentCategory === category.slug 
                       ? 'bg-blue-600 text-white shadow-md' 
-                      : 'text-gray-700 dark:text-gray-300 hover:bg-white dark:hover:bg-gray-700 hover:shadow-md'
+                      : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md'
                     }`}
                 >
                   {category.name}
