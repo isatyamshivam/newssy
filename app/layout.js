@@ -12,8 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Times of India News",
-  description: "Latest news from Times of India",
+  title: "Newssy",
+  description: "Latest News and Headlines of India",
+  icons: {
+    icon: "/newssy_logo.svg"
+  }
 };
 
 export default function RootLayout({ children }) {

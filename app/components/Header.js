@@ -25,7 +25,7 @@ const Header = ({ currentCategory = 'top' }) => {
         <Link href="/" className="flex items-center space-x-3 group">
           <div className="relative h-10 w-10 transition-transform duration-300 group-hover:scale-110">
             <Image 
-              src="/newsyy.jpg" 
+              src="/newssy_logo.svg" 
               alt="Newsyy"
               fill
               className="object-contain rounded-md" 
@@ -41,8 +41,8 @@ const Header = ({ currentCategory = 'top' }) => {
           <Link href="/" className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 dark:hover:border-blue-400 pb-1">
             Home
           </Link>
-          <Link href="https://timesofindia.indiatimes.com" target="_blank" className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 dark:hover:border-blue-400 pb-1">
-            Official Site
+          <Link href="https://isatyamshivam.wordpress.com/" target="_blank" className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 dark:hover:border-blue-400 pb-1">
+            Developer's Profile
           </Link>
         </nav>
         
