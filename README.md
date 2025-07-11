@@ -55,5 +55,6 @@ yarn dev
 - Geist Font by Vercel – used via next/font
 - Special thanks to the open-source community for ongoing inspiration
 
-```
+---
+
 Made with 💖 and Next.js
