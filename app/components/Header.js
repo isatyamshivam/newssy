@@ -41,7 +41,7 @@ const Header = ({ currentCategory = 'top' }) => {
           <Link href="/" className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 dark:hover:border-blue-400 pb-1">
             Home
           </Link>
-          <Link href="https://isatyamshivam.wordpress.com/" target="_blank" className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 dark:hover:border-blue-400 pb-1">
+          <Link href="https://linktr.ee/isatyamshivam" target="_blank" className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 dark:hover:border-blue-400 pb-1">
             Developer's Profile
           </Link>
         </nav>
