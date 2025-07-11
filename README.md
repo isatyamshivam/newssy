@@ -4,8 +4,6 @@
 
 [🔗 Visit Site](https://newssy-isatyamshivam.vercel.app/)
 
----
-
 ## 🛠️ Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/)
@@ -16,8 +14,6 @@
 - **API**: Times of India News API
 - **Hosting**: [Vercel](https://vercel.com/) 
 
----
-
 ## ✅ Features
 
 - 🔥 Latest news updates fetched via public API
@@ -25,8 +21,6 @@
 - 🖋️ Optimized font loading using `next/font` (Geist)
 - 📱 Fully responsive design for all devices
 - 🌐 Dynamic routing for multiple news categories
-
----
 
 ## 📦 Installation
 
@@ -61,4 +55,5 @@ yarn dev
 - Geist Font by Vercel – used via next/font
 - Special thanks to the open-source community for ongoing inspiration
 
----
+```
+Made with 💖 and Next.js
