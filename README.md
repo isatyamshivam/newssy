@@ -1,4 +1,4 @@
-# 📰 Newssy
+# Newssy - Real-Time News Aggregator
 
 **Newssy** is a modern, lightweight news web application built using **Next.js**. It provides the latest news articles across various categories, with a clean UI and optimized performance using server-side rendering and efficient font loading.
 
@@ -6,21 +6,21 @@
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/)
+- **Framework**: Next.js
 - **Language**: JavaScript (ES6+)
 - **UI Library**: React
-- **Styling**: CSS / TailwindCSS (if used)
+- **Styling**: CSS / TailwindCSS
 - **Fonts**: `next/font` with Geist font family
 - **API**: Times of India News API
-- **Hosting**: [Vercel](https://vercel.com/) 
+- **Hosting**: Vercel
 
 ## ✅ Features
 
-- 🔥 Latest news updates fetched via public API
-- 🚀 Fast performance with Next.js server-side rendering
-- 🖋️ Optimized font loading using `next/font` (Geist)
-- 📱 Fully responsive design for all devices
-- 🌐 Dynamic routing for multiple news categories
+- Latest news updates fetched via public API
+- Fast performance with Next.js server-side rendering
+- Optimized font loading using `next/font` (Geist)
+- Fully responsive design for all devices
+- Dynamic routing for multiple news categories
 
 ## 📦 Installation
 
@@ -56,5 +56,3 @@ yarn dev
 - Special thanks to the open-source community for ongoing inspiration
 
 ---
-
-Made with 💖 and Next.js
