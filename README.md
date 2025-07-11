@@ -1,46 +1,64 @@
-## 📄 Project Overview
+# 📰 Newssy
 
-**Newssy** is a web application developed with Next.js, designed to provide users with the latest news articles. The project leverages Next.js's capabilities for server-side rendering and optimized performance.
+**Newssy** is a modern, lightweight news web application built using **Next.js**. It provides the latest news articles across various categories, with a clean UI and optimized performance using server-side rendering and efficient font loading.
 
 [🔗 Visit Site](https://newssy-isatyamshivam.vercel.app/)
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-To run the development server:
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: JavaScript (ES6+)
+- **UI Library**: React
+- **Styling**: CSS / TailwindCSS (if used)
+- **Fonts**: `next/font` with Geist font family
+- **API**: Times of India News API
+- **Hosting**: [Vercel](https://vercel.com/) 
+
+---
+
+## ✅ Features
+
+- 🔥 Latest news updates fetched via public API
+- 🚀 Fast performance with Next.js server-side rendering
+- 🖋️ Optimized font loading using `next/font` (Geist)
+- 📱 Fully responsive design for all devices
+- 🌐 Dynamic routing for multiple news categories
+
+---
+
+## 📦 Installation
+
+Follow these steps to run the project locally:
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/isatyamshivam/newssy.git
+cd newssy
+
+# 2. Install dependencies
+npm install
+# or
+yarn install
+
+# 3. Set environment variables
+cp .env.example .env.local
+# Add your NEWS_API_KEY in .env.local
+
+# 4. Run the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 5. Visit http://localhost:3000 in your browser
 ```
 
+## 🙏 Acknowledgments
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the application. ([GitHub - isatyamshivam/newssy](https://github.com/isatyamshivam/newssy?utm_source=chatgpt.com))
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file. ([GitHub - isatyamshivam/newssy](https://github.com/isatyamshivam/newssy?utm_source=chatgpt.com))
-
----
-
-## 🧰 Technologies Used
-
-- **Next.js**: React framework for server-side rendering and static site generation.
-- **next/font**: Used to automatically optimize and load the [Geist](https://vercel.com/font) font family. ([GitHub - isatyamshivam/newssy](https://github.com/isatyamshivam/newssy?utm_source=chatgpt.com))
-
----
-
-## 📚 Learn More
-
-To learn more about Next.js:
-
-- [Next.js Documentation](https://nextjs.org/docs): Learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn): An interactive Next.js tutorial.
-
-You can also check out the [Next.js GitHub repository](https://github.com/vercel/next.js) for more information.
+- Next.js – for the powerful SSR framework
+- News API – for providing news data
+- Geist Font by Vercel – used via next/font
+- Special thanks to the open-source community for ongoing inspiration
 
 ---
