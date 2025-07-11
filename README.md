@@ -2,8 +2,9 @@
 
 **Newssy** is a web application developed with Next.js, designed to provide users with the latest news articles. The project leverages Next.js's capabilities for server-side rendering and optimized performance.
 
-[🔗 Visit Site](https://newssyy.vercel.app/)
 ---
+
+[🔗 Visit Site](https://newssyy.vercel.app/)
 
 ## 🚀 Getting Started
 
