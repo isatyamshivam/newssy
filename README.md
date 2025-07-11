@@ -1,4 +1,4 @@
-# <img src="https://github.com/isatyamshivam/newssy/public/newssy_logo.svg" alt="Newssy" width="60"/> Newssy - Real-Time News Aggregator
+# <img src="public/newssy_logo.svg" alt="Newssy" width="60"/> Newssy - Real-Time News Aggregator
 
 **Newssy** is a modern, lightweight news web application built using **Next.js**. It provides the latest news articles across various categories, with a clean UI and optimized performance using server-side rendering and efficient font loading.
 
